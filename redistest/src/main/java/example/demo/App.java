@@ -23,6 +23,10 @@ public class App
 
         // Perform cache operations using the cache connection object...
 
+        // Print Redis Info
+        System.out.println( "Cache Name : " + cacheHostname);
+        System.out.println( "Cache Key : " + cachekey);
+
         // Simple PING command        
         System.out.println( "\nCache Command  : Ping" );
         System.out.println( "Cache Response : " + jedis.ping());
