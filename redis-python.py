@@ -1,7 +1,7 @@
 import redis
 
-myHostname = "charlesredis1.redis.cache.windows.net"
-myPassword = "aYf108VRn6Z0Efb5ski0l8L7xB1xeCmFEAzCaLzhcz4="
+myHostname = ""
+myPassword = ""
 
 r = redis.StrictRedis(host=myHostname, port=6380, password=myPassword, ssl=True)
 #r = redis.RedisCluster(host=myHostname, port=15000, password=myPassword, ssl=True)
